@@ -1,0 +1,386 @@
+body{
+  margin:0px;
+  border:0px;
+  padding:0px;
+}
+header{
+padding: 12px 0px 12px 0px;
+height: 40px;
+margin:0px;
+width:100%;
+position:fixed;
+top:0px;
+background-color: rgba(255,255,255,0.2);
+z-index: 100;
+}
+
+.hamburger{
+
+  background-image: url(https://cdn0.iconfinder.com/data/icons/rounded-basics/24/rounded__menu-512.png);
+  background-size: contain;
+  width:40px;
+  height:40px;
+  margin:0;
+  padding:0;
+  display: none;
+  float:left;
+}
+.header-nav{
+
+  max-width:1360px;
+  margin:auto;
+}
+.logo{
+  background-image: url(https://cdn.zeplin.io/59de1f633fed7a7ec333d574/assets/252FC9E4-092E-4589-97AD-85C4558F64F8.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin:0;
+  padding:0;
+  float:left;
+  width:75px;
+  height:44px;
+  margin-left: 40px;
+
+}
+nav{
+  display: inline-block;
+}
+.nav-bar{
+
+  margin:0px auto;
+  padding:0px;
+  list-style: none;
+ text-align: justify;
+}
+.side-nav{
+  float:right;
+  margin-right: 48px;
+}
+.nav-bar a:hover{
+  color: black;
+}
+.nav-bar a {
+  text-decoration:none;
+  margin-right:30px;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  font-size: 14px;
+  color:white;
+}
+ .cta-btn {
+  width:auto;
+  height:auto;
+  border:none;
+  border-radius: 22px;
+  float:right;
+  padding:10px 30px 10px 30px;
+  cursor:pointer;
+  background-color:#2086fb;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color:white;
+}
+.backdrop{
+  position:static;
+  width:100%;
+  height:800px;
+  background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://cdn.zeplin.io/59de1f633fed7a7ec333d574/assets/3A4C5B95-2D5E-4CAA-A4C9-C676CF27EE56.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.backdrop .search-heading {
+
+
+
+margin:auto;
+top:0px;
+max-width: 940px;
+text-align: center;
+padding-top: 215px;
+}
+
+.backdrop .search-heading p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color:white;
+  margin:0px;
+
+}
+.backdrop .search-heading input{
+  width:95%;
+  height:54px;
+  border: 5px solid rgba(0,0,0,0.5);
+  text-indent: 20px;
+  border-radius: 4px;
+  color: #9b9b9b;
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://image.flaticon.com/icons/png/512/55/55369.png);
+  background-position: 98% 50%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin-top:24px;
+}
+
+
+.content-section{
+
+  width:100%;
+  background-color:white;
+  text-align: center;
+  margin:auto;
+
+}
+.content-mid{
+  font-size: 0px;
+  width:100%;
+  margin:auto;
+  max-width:1360px;
+}
+.content-container{
+  width:328px;
+  max-height:328px;
+  text-align: center;
+ display: inline-block;
+ border: solid 1px #dcdcdc;
+ margin: 0px;
+ padding: 0px;
+}
+.content-container .content-heading{
+
+  margin: 24px 0px 0px 0px;
+  font-size: 18px;
+
+}
+.content-container .content-detail{
+  margin:10px 0px 60px 0px;
+  padding: 0px 48px;
+  font-size:16px;
+}
+.content-container .content-image{
+  margin:52px 0px 0px 0px;
+}
+.content-mid{
+
+  margin:20px auto;
+}
+
+.content-mid div:nth-child(1)
+{
+  border-top:none;
+  border-left:none;
+}
+.content-mid div:nth-child(2)
+{
+  border-top:none;
+  border-left:none;
+}
+.content-mid div:nth-child(3)
+{
+  border-top:none;
+  border-left:none;
+}
+.content-mid div:nth-child(4)
+{
+  border-top:none;
+  border-right:none;
+  border-left:none;
+}
+
+
+.content-mid div:nth-child(5)
+{
+  border-top:none;
+  border-left:none;
+  border-bottom:none;
+}
+.content-mid div:nth-child(6)
+{
+  border-top:none;
+  border-left:none;
+  border-bottom:none;
+}
+.content-mid div:nth-child(7)
+{
+  border-top:none;
+  border-left:none;
+  border-bottom:none;
+}
+.content-mid div:nth-child(8)
+{
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:none;
+}
+
+.bottom-section{
+padding:64px 0px;
+color:white;
+width:100%;
+background-color: #323232;
+text-align:center;
+}
+.bottom-section h2 ,p ,input{
+margin:0px;
+
+}
+.bottom-section h2{
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+.bottom-section p{
+  font-family: 'Open Sans', sans-serif;
+  margin-top:4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bottom-section button{
+margin-top:48px;
+
+}
+footer{
+
+width:100%;
+padding:25px 0px;
+background-color: #252525;
+color:white;
+font-family: 'Open Sans', sans-serif;
+font-size:16px;
+font-weight:600;
+}
+.container{
+  max-width: 1360px;
+  margin:auto;
+}
+.container span {
+  margin-left:40px;
+}
+.return-button{
+  background-color: #4a4a4a;
+color: #979797;
+padding: 6px 12px;
+
+border-radius: 4px;
+}
+.container a{
+  margin-right: 20px;
+  float: right;
+  margin-top: -31px;
+}
+
+@media screen and (max-width:1024px)
+{
+  .content-mid{
+
+    width: 1024px;
+  }
+
+
+  .content-container{
+
+
+    width:100%;
+    height:100%;
+    height:auto;
+    border:1px solid black;
+
+  }
+
+
+
+
+}
+@media screen and (max-width:1200px){
+
+
+.content-mid .content-container {
+  border:none;
+}
+.content-mid div:nth-child(odd)
+{
+border-right:solid 1px #dcdcdc;
+border-bottom:solid 1px #dcdcdc;
+}
+.content-mid div:nth-child(even)
+{
+border-bottom:solid 1px #dcdcdc;
+
+}
+.content-mid div:nth-child(8)
+{
+  border-bottom:none;
+}
+.content-mid div:nth-child(7)
+{
+  border-bottom:none;
+}
+
+
+
+.bottom-section{
+
+
+  text-align:left;
+
+}
+.bottom-section h2{
+
+  font-size:40px;
+  margin-left:20px;
+}
+.bottom-section p{
+  display:inline-block;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left:20px;
+}
+.bottom-section button{
+  float:right;
+      margin-top: 25px;
+      font-size:20px;
+
+}
+.content-section{
+      width: 938px;
+}
+  .content-mid{
+    font-size: 0px;
+    width:100%;
+      margin: 30px auto;
+
+  }
+.content-container{
+
+
+height: auto;
+text-align: center;
+display: inline-block;
+border: solid 1px #dcdcdc;
+margin: 0px;
+padding: 0px;
+
+}
+
+  .nav-bar{
+    display:none;
+  }
+  .hamburger{
+    margin-left:40px;
+    display: inline-block;
+  }
+  .backdrop{
+    height:100%;
+  }
+  .backdrop .search-heading {
+  padding-bottom: 115px;
+padding-top: 145px;
+}
+}

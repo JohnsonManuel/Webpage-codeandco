@@ -1,0 +1,37 @@
+.custom-btn{
+  border-radius: 21px;
+}
+.transparent{
+  background-color: rgba(255,255,255,0.3);
+}
+.container{
+}
+#logo{
+  width: 75px;
+  height:44px;
+}
+.backdrop{
+  background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://cdn.zeplin.io/59de1f633fed7a7ec333d574/assets/3A4C5B95-2D5E-4CAA-A4C9-C676CF27EE56.png);
+  height:100vh;
+  max-height:650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.navbar-item a{
+  color:white;
+}
+.navbar-item a:hover{
+  color:black;
+}
+navbar-item a:active{
+  color:black;
+}
+.nav-bar{
+  padding:0px;
+}
+.bottom-section{
+  color:white;
+  padding:69px;
+}

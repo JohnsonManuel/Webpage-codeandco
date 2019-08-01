@@ -1,0 +1,34 @@
+*{
+font-family: 'Open Sans', sans-serif;
+  box-sizing:border-box;
+}
+#logo{
+
+  width:76px;
+  height:44px;
+}
+.backdrop{
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://cdn.zeplin.io/59de1f633fed7a7ec333d574/assets/3A4C5B95-2D5E-4CAA-A4C9-C676CF27EE56.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  max-height:600px;
+
+}
+
+.nav-item a {
+  color:white;
+}
+.nav-item a:hover{
+  color:black;
+}
+
+.custom-btn{
+  border-radius: 12px;
+}
+.form-control :focus{
+
+  border:none;
+}

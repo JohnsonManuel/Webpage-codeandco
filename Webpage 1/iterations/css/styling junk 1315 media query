@@ -1,0 +1,176 @@
+@media screen and (max-width:1315px){
+
+
+.content-mid .content-container {
+  border:none;
+}
+.content-mid div:nth-child(odd)
+{
+border-right:solid 1px #dcdcdc;
+border-bottom:solid 1px #dcdcdc;
+}
+.content-mid div:nth-child(even)
+{
+border-bottom:solid 1px #dcdcdc;
+
+}
+.content-mid div:nth-child(8)
+{
+  border-bottom:none;
+}
+.content-mid div:nth-child(7)
+{
+  border-bottom:none;
+}
+
+
+
+.bottom-section{
+
+
+  text-align:left;
+
+}
+.bottom-section h2{
+
+  font-size:40px;
+  margin-left:20px;
+}
+.bottom-section p{
+  display:inline-block;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left:20px;
+}
+.bottom-section button{
+  float:right;
+      margin-top: 25px;
+      font-size:20px;
+
+}
+.content-section{
+      width: 938px;
+}
+  .content-mid{
+    font-size: 0px;
+    width:100%;
+      margin: 30px auto;
+
+  }
+.content-container{
+
+
+height: auto;
+text-align: center;
+display: inline-block;
+border: solid 1px #dcdcdc;
+margin: 0px;
+padding: 0px;
+
+}
+
+  .nav-bar{
+    display:none;
+  }
+  .hamburger{
+    margin-left:40px;
+    display: inline-block;
+  }
+  .backdrop{
+    height:100%;
+  }
+  .backdrop .search-heading {
+  padding-bottom: 115px;
+padding-top: 145px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-mid div:nth-child(1)
+{
+  border-top:0px;
+  border-left:0px;
+}
+.content-mid div:nth-child(2)
+{
+  border-left:0px;
+  border-top:0px;
+}
+.content-mid div:nth-child(3)
+{
+  border-top:0px;
+  border-left:0px;
+}
+.content-mid div:nth-child(4)
+{
+  border-top:0px;
+  border-right:0px;
+  border-left:0px;
+}
+
+
+.content-mid div:nth-child(5)
+{
+color:white;
+  border-top:0px;
+  border-left:0px;
+  border-bottom:0px;
+}
+.content-mid div:nth-child(6)
+{
+  border-top:0px;
+  border-left:0px;
+  border-bottom:0px;
+}
+.content-mid div:nth-child(7)
+{
+  border-top:0px;
+  border-left:0px;
+  border-bottom:0px;
+}
+.content-mid div:nth-child(8)
+{
+  border-top:0px;
+  border-right:0px;
+  border-left:0px;
+  border-bottom:0px;
+}
+
+
+@media  screen and (max-width:1024px)
+
+{
+  .nav-bar{
+    display:none;
+  }
+
+  .hamburger{
+    margin-left:40px;
+    display: inline-block;
+  }
+
+.backdrop{
+  height:600px;
+}
+.content-mid .content-container
+{
+
+    width:calc(100%/2);
+    height:100%;
+
+    border:1px solid black;
+}
+
+}

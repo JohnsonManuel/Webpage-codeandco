@@ -1,0 +1,377 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin:0px;
+  border:0px;
+  padding:0px;
+}
+.change{
+background-color: #000000ab;
+}
+.side-nav{
+  position: fixed;
+  transition: right 500ms ease-out;
+  top: 0px;
+  bottom: 0px;
+  right: -200px;
+  width: 200px;
+  padding-top: 66px;
+  background-color: black;
+  z-index:3;
+}
+
+.body-overlay{
+top:0px;
+left:0px;
+height:100%;
+width:0px;
+position:fixed;
+z-index:2;
+
+}
+
+.side-nav .close-button{
+  position: absolute;
+display: inline-block;
+top: 10px;
+width: auto;
+color: white;
+left: 10px;
+font-size: 35px;
+margin: 0px;
+text-decoration: none;
+}
+
+.side-nav ul{
+  height: 100%;
+
+    padding: 0px;
+    overflow-y: auto;
+    list-style: none;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.side-nav li a {
+  font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 15px 20px;
+
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+}
+.side-nav li{
+  display:block;
+  border-bottom: 2px solid #3f3f3f;
+  position:relative;
+}
+.side-nav li:hover {
+background-color:#3c3c3c;
+}
+
+.container{
+
+  max-width: 1360px;
+      margin: 0px auto;
+}
+.footer-section{
+    padding: 0px 40px;
+}
+header{
+  padding: 12px 0px 12px 0px;
+      height: 40px;
+      margin: 0px;
+      width: 100%;
+      position: fixed;
+      text-align: center;
+      background-color: rgba(255,255,255,0.2);
+}
+.header-nav button{
+  float:right;
+}
+.hamburger{
+  display: none;
+  width:40px;
+  height:40px;
+  float:right;
+
+}
+.hamburger-button{
+  display: block;
+    width: 40px;
+    height: 6px;
+    margin-top: 6px;
+    background-color: #e0dada;
+    border-radius: 2px;
+}
+.header-nav{
+
+  padding: 0px 40px;
+
+}
+.logo{
+  background-image: url(https://cdn.zeplin.io/59de1f633fed7a7ec333d574/assets/252FC9E4-092E-4589-97AD-85C4558F64F8.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin:0;
+  padding:0;
+  float:left;
+  width:75px;
+  height:44px;
+
+
+}
+nav{
+  display: inline-block;
+}
+
+
+.nav-bar a:hover{
+  color: black;
+}
+.nav-bar a {
+  text-decoration:none;
+  margin-right:30px;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  font-size: 14px;
+  color:white;
+}
+.nav-bar a:last-child{
+  margin-right:none;
+}
+ .cta-btn {
+  border:none;
+  border-radius: 22px;
+  padding:10px 30px 10px 30px;
+  cursor:pointer;
+  background-color:#2086fb;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color:white;
+}
+.backdrop{
+  position:static;
+  width:100%;
+  height:800px;
+  background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://cdn.zeplin.io/59de1f633fed7a7ec333d574/assets/3A4C5B95-2D5E-4CAA-A4C9-C676CF27EE56.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.backdrop .search-heading {
+  top: 0px;
+  max-width: 940px;
+
+  text-align: center;
+  padding-top: 215px;
+  margin: auto;
+}
+
+.backdrop .search-heading p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color:white;
+  margin:0px;
+
+}
+/* border:5px solid rgba(0,0,0,0.5);padding:16px 20px;
+  border-radius: 4px;-->*/
+
+.backdrop .search-heading form{
+    box-sizing: border-box;
+
+  }
+  .search-section{
+    height:100px;
+    text-align: center;
+  }
+
+.backdrop .search-heading input{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    border-radius: 4px;
+    height:53px;
+
+    text-indent:10px;
+    width:94%;
+    border-right:none;
+}
+.search-button{
+  border-left:none;
+  border-radius: 4px;
+  vertical-align: middle;
+  height:53px;
+  width:5%;
+  background-image: url(https://image.flaticon.com/icons/png/512/55/55369.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  background-color:white;
+}
+
+
+.content-section{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-top: -125px;
+
+}
+
+.content-mid{
+  font-size: 0px;
+  width: 100%;
+  margin: auto;
+
+  padding: 20px 0px;
+}
+.content-container{
+  width:calc(100%/4);
+
+  text-align: center;
+ display: inline-block;
+ border: solid 1px #dcdcdc;
+  box-sizing: border-box;
+}
+.content-container .content-heading{
+
+  margin: 24px 0px 0px 0px;
+font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.content-container .content-detail{
+  font-family: 'Open Sans', sans-serif;
+  color:#858585;
+  margin:10px 0px 60px 0px;
+  padding:0px 20px;
+  font-size:16px;
+}
+.content-container .content-image{
+  margin:52px 0px 0px 0px;
+}
+
+
+.bottom-section{
+padding:64px 0px;
+color:white;
+width:100%;
+background-color: #323232;
+text-align:center;
+}
+.bottom-section h2 ,p ,input{
+margin:0px;
+
+}
+.bottom-section h2{
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+.bottom-section p{
+  font-family: 'Open Sans', sans-serif;
+  margin-top:4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bottom-section button{
+margin-top:48px;
+
+}
+footer{
+
+width:100%;
+padding: 25px 0px;
+background-color: #252525;
+color:white;
+font-family: 'Open Sans', sans-serif;
+font-size:16px;
+font-weight:600;
+}
+
+
+
+.return-button{
+  background-color: #4a4a4a;
+color: #979797;
+padding: 6px 12px;
+border-radius: 4px;
+margin-top: -35px;
+float:right;
+}
+
+
+
+
+@media screen and (max-width:1315px)
+and (min-width:1003px)
+{
+  .content-mid{
+    font-size: 0px;
+    width:100%;
+padding:20px auto;
+  }
+  .content-container{
+    width:calc(90%/2);
+
+  }
+  .content-container .content-heading{
+    margin: 24px 0px 0px 0px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  .content-container .content-detail{
+    font-family: 'Open Sans', sans-serif;
+    color:#858585;
+    margin:10px 0px 60px 0px;
+    padding: 0px 48px;
+    font-size:20px;
+  }
+
+
+}
+
+@media screen and (max-width:1004px)
+{
+  .hamburger{
+    display: inline-block;
+  }
+
+.backdrop
+{
+  height: 645px;
+}
+
+  .nav-bar{
+    display:none;
+  }
+
+  header button{
+    display:none;
+  }
+
+.content-container{
+  margin-top: 10px;
+  width: 96%;
+}
+.content-container .content-heading{
+
+  font-size: 24px;
+
+}
+.content-container .content-detail{
+
+  font-size:22px;
+}
+
+}
